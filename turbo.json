@@ -8,7 +8,11 @@
     "lint": {},
     "dev": {
       "cache": false,
-      "persistent": true
+      "persistent": true,
+      "dependsOn": ["^apollo:generate"]
+    },
+    "apollo:generate": {
+      "cache": false
     }
   }
 }
